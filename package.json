@@ -1,7 +1,7 @@
 {
-  "name": "swifr",
+  "name": "swifr-project",
   "version": "0.0.1",
-  "description": "Layout, UI and form component library for React",
+  "description": "Functional building blocks for React",
   "repository": "https://github.com/huubhermsen/swifr.git",
   "author": "Huub Hermsen <huub@kolibri.software>",
   "license": "UNLICENSED",
@@ -10,5 +10,14 @@
     "cypress": "^9.2.1",
     "lerna": "^4.0.0",
     "typescript": "^4.5.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lerna": "lerna",
+    "dev": "lerna run start --stream --parallel",
+    "test": "lerna run test --",
+    "build": "lerna run build"
   }
 }

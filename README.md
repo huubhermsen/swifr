@@ -1,2 +1,3 @@
 # SWIFR
-Layout, UI and form component library for React
+
+Functional building blocks for React
