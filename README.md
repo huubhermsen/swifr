@@ -9,3 +9,5 @@
 <br />
 
 [![license](https://badgen.now.sh/badge/license/Apache-2.0)](./LICENSE)
+
+This project is currently under serious development to create a first alpha release. Please follow us for future updates.
