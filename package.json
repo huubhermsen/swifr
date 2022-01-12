@@ -1,0 +1,14 @@
+{
+  "name": "swifr",
+  "version": "0.0.1",
+  "description": "Layout, UI and form component library for React",
+  "repository": "https://github.com/huubhermsen/swifr.git",
+  "author": "Huub Hermsen <huub@kolibri.software>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^9.2.1",
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.4"
+  }
+}
